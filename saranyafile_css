@@ -1,0 +1,139 @@
+.projectfile */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+    position: relative; /* Add this */
+}
+.header-content h1 {
+    font-size: 3 rem;
+}
+
+.profile-picture { 
+/*add styles for the round profile picture */
+width: 100px; /*adjust the size as needed */
+height: 100px; 
+border-radius: 75%; /*create the circular shape */
+object-fit:cover; /*To ensure the image fills the circular area */
+position: absolute; /*add this */
+top: 75px; /*adjust top position as needed */
+left: 75px; /*adjust left position as needed */
+}
+nav {
+background-color: #333333
+color: #fff;
+text-align:  center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #fff;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200p00px;
+}
+
+.bio {
+    text-align: left;
+}
+
+.projects {x;
+    height: 2
+    text-align: center;
+}
+
+.project {
+    margin: 30px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+#header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+#about, #projects, #contact {
+    background-color: #f2f2f2;
+}
+
+.project {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Style links on hover */
+nav a:hover {
+    text-decoration: underline;
+}
